@@ -9,7 +9,13 @@
 #include <stdio.h>
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
-    return 0;
+    int a=1;
+    int b=2;
+    
+    a=a+b;
+    b=a-b;
+    a=a-b;
+    
+    printf("A: %d \nB : %d \n",a,b);
+    
 }
